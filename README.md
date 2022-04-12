@@ -7,31 +7,50 @@
 
 ## Objective:
 ### Questions that will drive the analysis
-The goal is to find what can we do to motivate the users to change from casual subscription to annual subscription.
+* Which products of all the stores generates the highest and lowest profits?
+* Which months will generate the highest profits and on which dates and states?
+* What is the best time to sell our products?
 
-## Data transformation and data preparation
-These datasets contain Cyclistic's historical trip data in 2020. The data has been made available by Motivate Inc. and was downloaded in a csv file and transformed using SQLite to use them in Tableau.
-
-I've put my focus on the 2020 period as it's the most recent period where we have the data from a whole year, and so we can compare it with future years.
-
-The dataset consists of a single table with 13 columns and almost 3.4 million rows.
-
-You can see all the SQL queries [HERE](https://github.com/victort9/Victor-Projects/tree/main/Query):
+## Data cleaning and data preparation
+The data shows the sales of an electronics store, you can see the raw data [HERE](https://github.com/victort9/Excel_Analysis_Project/tree/main/Files). As you can see in the image below, the format of the data was not appropriate for the analysis, so it had to be cleaned and prepared.
 
 ![](images/Query.PNG)
 
-## Data model:
-You can see in this image the data model used in Tableau after the data was extracted.
+The activities performed were the following:
 
-![Data model](images/Data model.png)
+* Eliminate duplicates and cells that did not correspond to the data.
+* Eliminate or correct missing values
+* Adjust the dates because they did not have the proper format.
+* Create the time, city and state columns for the analysis.
+* The dataset consists of a single table with 13 columns and almost 3.4 million rows.
+
+![](images/Query.PNG)
+
+## Data Analysis:
+The analysis was done using Excel pivot tables and visualizations considering the target questions.
+
+* Which product of all the stores generates the highest and lowest profits: For this, the products were analyzed with respect to sales.
+
+![](images/Data model.png)
+
+* Which months will generate the highest profits and on which dates and state? The sales analysis was made over time
+
+![](images/Data model.png)
+
+* What is the best time to sell our products? The time and days of the week were used to evaluate the sales performance in a week.
+
+![](images/Data model.png)
 
 ## Visualizations
-The final product is a presentation in Google Presentation of my findings.
+Finally we obtained a dashboard with 2 sheets showing the sales in a general way and the other one showing the performance of these at different times of the day and weeks. You can see the dashboards below and you can access the document by clicking [HERE](https://github.com/victort9/Excel_Analysis_Project/tree/main/Files).
 
-You can see the result here [HERE](https://docs.google.com/presentation/d/1-W0WErICYOC2aFaU2lhP7XbpT2kkeuYIDDBILigH88o/edit#slide=id.p)
+![](images/Data model.png)
+![](images/Data model.png)
+
+PS. Since the file "Sales_Data_2019_Report" is larger than 25 MB I have decided to separate the sheet with the final data to another file called "Sales_Data_2019_Final_Data".
 
 ## Conclusions
-* The best month to focus the campaings are June and September.
-* The Casual users have leisure, and tourism rides mostly on weekends. The Annual/Member users have commute rides, during all week, so their behavior is different.
-* The Casual users are more likely to take the electric bike rather than the Annual/Member users.
-* I would suggest that in order to convert the casual to the annual users it would be interesting to focus the messages on people that uses the bike in a more leisure or commute way, depending on whether you want casual or annual users. Maybe offer some kind of promotion related to weekends and/or electric bikes if you aim for casual users.
+* Despite being the least sold product, the MacBook Pro Laptop remains the best selling product every month. The product with the least number of sales is the LG Dryer.
+* The best times to sell are at 12:00 and 19:00 on Tuesdays, October and December are the best selling months.
+* Sales in California were much higher than in the other states, concentrating marketing efforts here would generate higher profits but it is necessary to analyze the competition and market saturation for a better conclusion.
+* It is advisable to focus marketing efforts on the MacBook Pro as slightly increasing sales in this product could considerably increase profits. It is advisable to find another product to sell that can generate more sales than the LG Dryer 
