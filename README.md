@@ -24,29 +24,29 @@ The activities performed were the following:
 * Create the time, city and state columns for the analysis.
 * The dataset consists of a single table with 13 columns and almost 3.4 million rows.
 
-![a](images/Query.PNG)
+![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Cleaned_data.png)
 
 ## Data Analysis:
 The analysis was done using Excel pivot tables and visualizations considering the target questions.
 
 * Which product of all the stores generates the highest and lowest profits: For this, the products were analyzed with respect to sales.
 
-![a](images/Data model.png)
-![a](images/Data model.png)
+![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/top_products_profit.png)
+![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Bottom_5_num_sales.png)
 
 * Which months will generate the highest profits and on which dates and state? The sales analysis was made over time
 
-![a](images/Data model.png)
+![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Sales_by_month.png)
 
 * What is the best time to sell our products? The time and days of the week were used to evaluate the sales performance in a week.
 
-![a](images/Data model.png)
+![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Sales_by_hour.png)
 
 ## Visualizations
 Finally we obtained a dashboard with 2 sheets showing the sales in a general way and the other one showing the performance of these at different times of the day and weeks. You can see the dashboards below and you can access the document by clicking [HERE](https://github.com/victort9/Excel_Analysis_Project/tree/main/Files).
 
-![a](images/Data model.png)
-![a](images/Data model.png)
+![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Performance_overview.png)
+![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Sales_overview.png)
 
 PS. Since the file "Sales_Data_2019_Report" is larger than 25 MB I have decided to separate the sheet with the final data to another file called "Sales_Data_2019_Final_Data".
 
