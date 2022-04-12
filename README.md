@@ -14,7 +14,7 @@
 ## Data cleaning and data preparation
 The data shows the sales of an electronics store, you can see the raw data [HERE](https://github.com/victort9/Excel_Analysis_Project/tree/main/Files). As you can see in the image below, the format of the data was not appropriate for the analysis, so it had to be cleaned and prepared.
 
-![a](images/Query.PNG)
+![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Raw_data.png)
 
 The activities performed were the following:
 
