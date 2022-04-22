@@ -1,11 +1,11 @@
 # Sales Analysis with Excel
 ## Project overview
 * An electronics store needs to increase its profits
-* A KPI is found that will allow to increase profits at the lowest cost.
-* Sales were evaluated by product, city, time and over time.
-* This analysis was done on a database with 180,000 values using Excel only.
+* A KPI is found that will allow to increase profits at the lowest cost
+* Sales were evaluated by product, city, time and over time
+* This analysis was done on a database with 180,000 values using Excel only
 
-## Objective:
+## Objective
 ### Questions that will drive the analysis
 * Which products of all the stores generates the highest and lowest profits?
 * Which months will generate the highest profits and on which dates and states?
@@ -26,7 +26,7 @@ The activities performed were the following:
 
 ![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Cleaned_data.png)
 
-## Data Analysis:
+## Data Analysis
 The analysis was done using Excel pivot tables and visualizations considering the target questions.
 
 * Which product of all the stores generates the highest and lowest profits: For this, the products were analyzed with respect to sales.
